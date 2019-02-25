@@ -239,7 +239,8 @@ img.with-border {
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
-  content: "\e9bd";
+  /* content: "\e9bd"; */
+  content: "\e801";
   color: #f0394d;
   text-align: center;
 }
@@ -441,7 +442,8 @@ img.with-border {
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
-  content: "\e9bd";
+  /* content: "\e9bd"; */
+  content: "\e801";
   color: #f0394d;
   text-align: center;
   vertical-align: middle;

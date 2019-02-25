@@ -480,7 +480,7 @@ img.with-border{
   	font-style: normal;
   	font-weight: normal;
   	font-size:10px;
-	content: '\e9bd';
+	content: '\e801';
 	color:#f0394d;
 	text-align:center;
 }
@@ -801,7 +801,8 @@ img.with-border{
   	font-style: normal;
   	font-weight: normal;
   	font-size:10px;
-	content: '\e9bd';
+	/* content: '\e9bd'; */
+	content: '\e801';
 	color:#f0394d;
 	text-align:center;
 	vertical-align:middle;
@@ -949,8 +950,9 @@ img.with-border{
 
 /* 06.2.1 Main Slider Flexslider Control Nav & Paging */
 /* ----------------------------------------------*/
-#main-slider .flex-control-nav, .flex-control-paging{
-	 background-color:transparent; !important;
+#main-slider .flex-control-nav, 
+.flex-control-paging{
+	 background-color:transparent;!important; 
 	 margin:0; padding:0;
 	 position:absolute;
 	 bottom:0;
@@ -1628,7 +1630,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	position:absolute;
 	font-size:22px;
 	color:#FFF;
-	content:"\e806";
+	content:"\e801";
 	top:-17px;
 	left:0;
 	right:0;
@@ -1645,7 +1647,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	position:absolute;
 	font-size:22px;
 	color:#f0394d;
-	content:"\e806";
+	content:"\e801";
 	top:-17px;
 	left:0;
 	right:0	;
@@ -3727,5 +3729,4 @@ footer .image-divider.fixed-height{
 	color:#FFF;
 	letter-spacing:3px;
 	margin-top:10px;
-}
 }
