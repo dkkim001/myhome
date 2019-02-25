@@ -86,7 +86,9 @@
           <div class="slide-title">
             <div class="container">
               <div class="row">
-                <div class="col-md-offset-3 col-md-6 animation delay1 fadeInUp">
+                <div
+                  class="col-md-offset-3 col-md-6 animation delay1 fadeInUp shadowArea"
+                >
                   <div id="invited">초대합니다</div>
 
                   <div class="banner-text withlove medium light">
@@ -1095,6 +1097,11 @@
     <script>
       jQuery(function() {
         jQuery.scrollDepth();
+      });
+      $(window).load(function() {
+        $(".flexslider").flexslider({
+          animation: "slide"
+        });
       });
     </script>
   </body>
